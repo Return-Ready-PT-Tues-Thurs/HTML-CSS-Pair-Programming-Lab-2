@@ -1,0 +1,121 @@
+/* Global Layout Set-up */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;	
+}
+
+.container-item {
+	width: 400px;
+	margin: 15px;
+	background-color: #9cbc2b;
+}
+
+div {
+	padding-bottom: 1px;
+}
+
+form {
+	  display: flex;
+	  background-color: #9cbc2b;
+	  max-width: 30%;
+	  border-radius: 5px;
+	}
+
+h3 {
+	padding: 1em;
+}
+
+label {
+	padding-left: .5em;
+	padding-right: 2em;
+	border-radius: 1px;
+	padding-bottom: 1px;
+	border-color:white;
+}
+
+label.pcode {
+	padding-right: 19px;
+}
+
+textarea {
+	margin: 0px;
+	width: 226px;
+	height: 100px;
+	border-radius: 5px;
+	border-style: none;
+}
+
+input {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	margin-right: 1px;
+	border-color: white;
+	padding-left: 5px;
+	padding-right: 50px;
+	border-style: none;
+}
+
+input[type="radio"] {
+	margin: 14px -8px 7px 6px;
+	min-width: 0px;
+}
+
+input[type="address"] {
+    min-height: 90px;
+}
+
+
+input[type="submit"] {
+	color: #384313;
+}  
+
+input[type="text"] {
+	font-weight:lighter;
+	font-style: italic;
+}
+
+input[type="tel"] {
+	font-weight:lighter;
+	font-style: italic;
+}
+
+
+fieldset {
+	min-width: 100%;
+	max-width: 30%;
+	border: 2px solid #e3ebc2;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+
+.bkcolor {
+	background-color:#b9cf6a;
+	padding:10px;
+	margin-bottom: 3px;
+}
+
+button {
+    padding: 12px 53px 12px 53px;
+    color: #FFF;
+    background-color: #384313;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 36px;
+	margin: 10px 0 10px 0;
+	border-style: none;
+  }
+  .btn {
+	  margin: 0 29%;
+  }
